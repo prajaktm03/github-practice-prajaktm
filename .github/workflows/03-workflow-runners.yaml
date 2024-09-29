@@ -5,7 +5,7 @@ on: push
 jobs: 
     ubuntu-echo:
       runs-on: ubuntu-latest
-      step: 
+      steps: 
         - name: Show OS
           run: |
             echo "This job is running on an Ubuntu runner."
